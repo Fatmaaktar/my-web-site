@@ -1,0 +1,22 @@
+﻿@using MyWebSite.Models.Classes
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/_AdminLayoud.cshtml";
+    }
+<h2>Ana Sayfa</h2>
+    <table class="table table-bordered mt-3">
+        <tr>
+            <th>Id</th>
+            <th>İsim</th>
+            <th>Güncelle</th>
+        </tr>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.id</td>
+                <td>@x.Name</td>
+                <td><a href="/Admin/ComeHome/@x.id" class="btn btn-primary">Güncelle</a></td>
+            </tr>
+        }
+    </table>
+
