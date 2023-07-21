@@ -1,2 +1,2 @@
 # web-site  
-Bu proje HTML,CSS,Botstrap teknolojilerinden yaralanıp, Asp.net MVC mimarisi kullanılarak yapıldı.
+Bu proje HTML,CSS,Botstrap teknolojilerinden yaralanıp, Asp.NET MVC mimarisi kullanılarak yapıldı.
